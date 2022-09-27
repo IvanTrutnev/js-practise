@@ -4,6 +4,7 @@ const throttle = (fn, delay) => {
     isThrottled = false;
 
   return function wrapper() {
+    console.log("arguments", arguments);
     if (isThrottled) {
       savedArgs = arguments;
       savedThis = this;
