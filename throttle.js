@@ -4,7 +4,7 @@ const throttle = (fn, delay) => {
     isThrottled = false;
 
   return function wrapper() {
-    console.log("arguments", arguments);
+    console.log('arguments', arguments);
     if (isThrottled) {
       savedArgs = arguments;
       savedThis = this;
@@ -24,6 +24,21 @@ const throttle = (fn, delay) => {
     }, delay);
   };
 };
+
+// function throttle(fn, delay) {
+//   let timer = null;
+
+//   return function (...args) {
+//     if (timer) return null;
+
+//     timer = setTimeout(() => {
+//       fn(...args);
+
+//       timer = null;
+//       clearTimeout(timer);
+//     }, delay);
+//   };
+// }
 
 function f(a) {
   console.log(a);
