@@ -6,18 +6,14 @@
 // O(n) - time, O(1) - space
 
 var maxProfit = function (prices) {
-  let maxProfit = 0;
-  let boughtPrice = prices[0];
+  let profit = 0;
+  let minPrice = prices[0];
 
   for (let i = 1; i < prices.length; i++) {
-    const currPrice = prices[i];
+    minPrice = Math.min(minPrice, prices[i]);
 
-    if (currPrice < boughtPrice) {
-      boughtPrice = currPrice;
-    } else {
-      maxProfit = Math.max(maxProfit, currPrice - boughtPrice);
-    }
+    profit = Math.max(profit, prices[i] - minPrice);
   }
 
-  return maxProfit;
+  return profit;
 };
