@@ -1,44 +1,31 @@
-const throttle = (fn, delay) => {
-  let savedArgs,
-    savedThis,
-    isThrottled = false;
+function throttle(callback, delay) {
+  // Write your code here.
+  let lastCallTime = 0
+  let timerId = null;
 
-  return function wrapper() {
-    console.log('arguments', arguments);
-    if (isThrottled) {
-      savedArgs = arguments;
-      savedThis = this;
-      return;
+  function throttledFn(...args) {
+    const currentTime = new Date();
+    const timeSinceLastCall = currentTime - lastCallTime;
+    const delayRemaining = delay - timeSinceLastCall;
+
+    if (delayRemaining <= 0) {
+      lastCallTime = currentTime;
+      callback.apply(this, args);
+    } else {
+      clearTimeout(timerId);
+      timerId = setTimeout(() => {
+        lastCallTime = new Date();
+        callback.apply(this, args);
+      }, delayRemaining)
     }
-    fn.apply(this, arguments);
+  }
 
-    isThrottled = true;
+  throttledFn.cancel = () => {
+    clearTimeout(timerId);
+  }
 
-    setTimeout(() => {
-      isThrottled = false;
-      if (savedArgs) {
-        wrapper.apply(savedThis, savedArgs);
-        savedArgs = null;
-        savedThis = null;
-      }
-    }, delay);
-  };
-};
-
-// function throttle(fn, delay) {
-//   let timer = null;
-
-//   return function (...args) {
-//     if (timer) return null;
-
-//     timer = setTimeout(() => {
-//       fn(...args);
-
-//       timer = null;
-//       clearTimeout(timer);
-//     }, delay);
-//   };
-// }
+  return throttledFn;
+}
 
 function f(a) {
   console.log(a);
