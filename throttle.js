@@ -1,5 +1,4 @@
 function throttle(callback, delay) {
-  // Write your code here.
   let lastCallTime = 0
   let timerId = null;
 

@@ -19,5 +19,4 @@ function debounce(callback, delay, immediate = false) {
   };
 }
 
-// Do not edit the line below.
 exports.debounce = debounce;

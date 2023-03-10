@@ -1,17 +1,20 @@
-const curry = (fn) => {
-  const arity = fn.length; // got how many params the inner function have
+function curry(callback) {
+  function curried(...args) {
+    if (args.length){
+      return (...otherArgs) => {
+        if (!otherArgs.length) {
+          return callback(...args);
+        }
 
-  return function f1(...args) {
-    if (args.length >= arity) {
-      return fn(...args);
+        return curried(...args, ...otherArgs);
+      }
     } else {
-      return function f2(...args1) {
-        const newArgs = [...args, ...args1];
-        return f1(...newArgs);
-      };
+      return callback();
     }
-  };
-};
+  }
+
+  return curried;
+}
 
 const sum = (a, b, c, d) => {
   return a + b + c + d;
