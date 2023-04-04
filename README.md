@@ -6,3 +6,4 @@
 - [226. Invert Binary Tree](./226.%20Invert%20Binary%20Tree/226.%20Invert%20Binary%20Tree.js)
 - [543. Diameter of Binary Tree](./543.%20Diameter%20of%20Binary%20Tree/543.%20Diameter%20of%20Binary%20Tree.js)
 - [100. Same Tree](./100.%20Same%20Tree/100.%20Same%20Tree.js)
+- [110. Balanced Binary Tree](./110.%20Balanced%20Binary%20Tree/110.%20Balanced%20Binary%20Tree.js)
