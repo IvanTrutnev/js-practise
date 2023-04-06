@@ -8,3 +8,4 @@
 - [100. Same Tree](./100.%20Same%20Tree/100.%20Same%20Tree.js)
 - [110. Balanced Binary Tree](./110.%20Balanced%20Binary%20Tree/110.%20Balanced%20Binary%20Tree.js)
 - [101. Symmetric Tree](./101.%20Symmetric%20Tree/101.%20Symmetric%20Tree.js)
+- [617. Merge Two Binary Trees](./617.%20Merge%20Two%20Binary%20Trees/617.%20Merge%20Two%20Binary%20Trees.js)
