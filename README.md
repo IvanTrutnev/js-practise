@@ -12,3 +12,4 @@
 - [198. House Robber](./198.%20House%20Robber/198.%20House%20Robber.js)
 - [518. Coin Change II](./518.%20Coin%20Change%20II/518.%20Coin%20Change%20II.js)
 - [322. Coin Change](./322.%20Coin%20Change/322.%20Coin%20Change.js)
+- [169. Majority Element](./169.%20Majority%20Element/169.%20Majority%20Element.js)
