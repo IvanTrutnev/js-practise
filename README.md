@@ -14,3 +14,4 @@
 - [322. Coin Change](./322.%20Coin%20Change/322.%20Coin%20Change.js)
 - [169. Majority Element](./169.%20Majority%20Element/169.%20Majority%20Element.js)
 - [867. Transpose Matrix](./867.%20Transpose%20Matrix/867.%20Transpose%20Matrix.js)
+- [42. Trapping Rain Water](./42.%20Trapping%20Rain%20Water/42.%20Trapping%20Rain%20Water.js)
