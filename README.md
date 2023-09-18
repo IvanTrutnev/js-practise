@@ -21,3 +21,4 @@
 - [92. Reverse Linked List II](./92.%20Reverse%20Linked%20List%20II/92.%20Reverse%20Linked%20List%20II.js)
 - [430. Flatten a Multilevel Doubly Linked List](./430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List/430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List.js)
 - [142. Linked List Cycle II](./142.%20Linked%20List%20Cycle%20II/142-Linked-List-Cycle-II.js)
+- [1249. Minimum Remove to Make Valid Parentheses](./1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.js)
