@@ -1,3 +1,5 @@
+const numbers = [4, 6, 90, 0, 8, 87, 123, 1, 65, 32, 245];
+
 function bubbleSort(arr) {
   const length = arr.length;
 
@@ -35,6 +37,22 @@ function selectionSort(arr) {
 
 function insertionSort(arr) {
   const length = arr.length;
+
+  for (let i = 0; i < length; i++) {
+    if (arr[i] < arr[0]) {
+      arr.unshift(arr.splice(i, 1)[0]);
+    } else {
+      if (arr[i] < arr[i - 1]) {
+        for (let j = 1; j < length; j++) {
+          if (arr[i] >= arr[j - 1] && arr[i] < arr[j]) {
+            arr.splice(j, 0, arr.splice(i, 1)[0]);
+          }
+        }
+      }
+    }
+  }
+
+  return arr;
 }
 
 console.log(selectionSort(numbers));
