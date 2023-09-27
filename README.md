@@ -25,5 +25,6 @@
 - [142. Linked List Cycle II](./142.%20Linked%20List%20Cycle%20II/142-Linked-List-Cycle-II.js)
 - [1249. Minimum Remove to Make Valid Parentheses](./1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.js)
 - [232. Implement Queue using Stacks](./232.%20Implement%20Queue%20using%20Stacks/232.%20Implement%20Queue%20using%20Stacks.js)
+- [912. Sort an Array](./912.%20Sort%20an%20Array/912.%20Sort%20an%20Array.js)
 
 # BFE
