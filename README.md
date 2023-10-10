@@ -27,4 +27,6 @@
 - [232. Implement Queue using Stacks](./232.%20Implement%20Queue%20using%20Stacks/232.%20Implement%20Queue%20using%20Stacks.js)
 - [912. Sort an Array](./912.%20Sort%20an%20Array/912.%20Sort%20an%20Array.js)
 - [215. Kth Largest Element in an Array](./215.%20Kth%20Largest%20Element%20in%20an%20Array/215.%20Kth%20Largest%20Element%20in%20an%20Array.js)
+- [104. Maximum Depth of Binary Tree](./104.%20Maximum%20Depth%20of%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.js)
+
 # BFE
