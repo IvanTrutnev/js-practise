@@ -29,5 +29,6 @@
 - [215. Kth Largest Element in an Array](./215.%20Kth%20Largest%20Element%20in%20an%20Array/215.%20Kth%20Largest%20Element%20in%20an%20Array.js)
 - [104. Maximum Depth of Binary Tree](./104.%20Maximum%20Depth%20of%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.js)
 - [22. Generate Parentheses](./22.%20Generate%20Parentheses/22.%20Generate%20Parentheses.js)
+- [2. Add Two Numbers](./2.%20Add%20Two%20Numbers/2.%20Add%20Two%20Numbers.js)
 
 # BFE
