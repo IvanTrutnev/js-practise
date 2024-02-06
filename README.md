@@ -31,5 +31,6 @@
 - [22. Generate Parentheses](./22.%20Generate%20Parentheses/22.%20Generate%20Parentheses.js)
 - [2. Add Two Numbers](./2.%20Add%20Two%20Numbers/2.%20Add%20Two%20Numbers.js)
 - [27. Remove Element](./27.%20Remove%20Element/27.%20Remove%20Element.js)
+- [24. Swap Nodes in Pairs](./24.%20Swap%20Nodes%20in%20Pairs/24.%20Swap%20Nodes%20in%20Pairs.js)
 
 # BFE
