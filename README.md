@@ -32,5 +32,6 @@
 - [2. Add Two Numbers](./2.%20Add%20Two%20Numbers/2.%20Add%20Two%20Numbers.js)
 - [27. Remove Element](./27.%20Remove%20Element/27.%20Remove%20Element.js)
 - [24. Swap Nodes in Pairs](./24.%20Swap%20Nodes%20in%20Pairs/24.%20Swap%20Nodes%20in%20Pairs.js)
+- [2726. Calculator with Method Chaining](./2726.%20Calculator%20with%20Method%20Chaining/2726.%20Calculator%20with%20Method%20Chaining.js)
 
 # BFE
