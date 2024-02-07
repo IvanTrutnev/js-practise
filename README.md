@@ -33,5 +33,6 @@
 - [27. Remove Element](./27.%20Remove%20Element/27.%20Remove%20Element.js)
 - [24. Swap Nodes in Pairs](./24.%20Swap%20Nodes%20in%20Pairs/24.%20Swap%20Nodes%20in%20Pairs.js)
 - [2726. Calculator with Method Chaining](./2726.%20Calculator%20with%20Method%20Chaining/2726.%20Calculator%20with%20Method%20Chaining.js)
+- [2869. Minimum Operations to Collect Elements](./2869.%20Minimum%20Operations%20to%20Collect%20Elements/2869.%20Minimum%20Operations%20to%20Collect%20Elements.js)
 
 # BFE
