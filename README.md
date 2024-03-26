@@ -37,3 +37,5 @@
 - [2694. Event Emitter](./2694.%20Event%20Emitter/2694.%20Event%20Emitter.js)
 
 # BFE
+
+- [34. implement `Promise.any()`](<./BFE/34.%20implement%20`Promise.any()`.js>)
