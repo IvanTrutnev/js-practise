@@ -37,6 +37,7 @@
 - [2694. Event Emitter](./2694.%20Event%20Emitter/2694.%20Event%20Emitter.js)
 - [404. Sum of Left Leaves](./404.%20Sum%20of%20Left%20Leaves/404.%20Sum%20of%20Left%20Leaves.js)
 - [463. Island Perimeter](./463.%20Island%20Perimeter/463.%20Island%20Perimeter.js)
+- [58. Length of Last Word](./58.%20Length%20of%20Last%20Word/58.%20Length%20of%20Last%20Word.js)
 
 # BFE
 
