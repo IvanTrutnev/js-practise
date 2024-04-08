@@ -40,6 +40,7 @@
 - [58. Length of Last Word](./58.%20Length%20of%20Last%20Word/58.%20Length%20of%20Last%20Word.js)
 - [35. Search Insert Position](./35.%20Search%20Insert%20Position/35.%20Search%20Insert%20Position.js)
  - [83. Remove Duplicates from Sorted List](./83.%20Remove%20Duplicates%20from%20Sorted%20List/83.%20Remove%20Duplicates%20from%20Sorted%20List.js)
+ - [144. Binary Tree Preorder Traversal](./144.%20Binary%20Tree%20Preorder%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal.js)
 
 # BFE
 
