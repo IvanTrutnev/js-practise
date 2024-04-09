@@ -44,6 +44,7 @@
 - [145. Binary Tree Postorder Traversal](./145.%20Binary%20Tree%20Postorder%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal.js)
 - [171. Excel Sheet Column Number](./171.%20Excel%20Sheet%20Column%20Number/171.%20Excel%20Sheet%20Column%20Number.js)
 - [168. Excel Sheet Column Title](./168.%20Excel%20Sheet%20Column%20Title/168.%20Excel%20Sheet%20Column%20Title.js)
+- [202. Happy Number](./202.%20Happy%20Number/202.%20Happy%20Number.js)
 
 # BFE
 
