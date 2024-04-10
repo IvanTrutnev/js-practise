@@ -45,6 +45,7 @@
 - [171. Excel Sheet Column Number](./171.%20Excel%20Sheet%20Column%20Number/171.%20Excel%20Sheet%20Column%20Number.js)
 - [168. Excel Sheet Column Title](./168.%20Excel%20Sheet%20Column%20Title/168.%20Excel%20Sheet%20Column%20Title.js)
 - [202. Happy Number](./202.%20Happy%20Number/202.%20Happy%20Number.js)
+- [80. Remove Duplicates from Sorted Array II](./80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js)
 
 # BFE
 
